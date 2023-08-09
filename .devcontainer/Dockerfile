@@ -1,4 +1,4 @@
-FROM public.ecr.aws/aws-cli/aws-cli:2.13.8
+FROM mcr.microsoft.com/devcontainers/python:3
 
 RUN sudo apt update -y && sudo apt upgrade -y
 # Install python development libraries
